@@ -1,0 +1,142 @@
+.topLink__list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+.topLink__item {
+  list-style-type: none;
+}
+.topLink__item a {
+  font-weight: 700;
+}
+.topRow {
+  display: flex;
+  gap: 20px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsList {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.news__item {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.news__item img {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}
+.valute__list, .valute__item {
+  display: flex;
+  gap: 7px;
+  padding: 0;
+  list-style-type: none;
+}
+.valuteName {
+  font-weight: 700;
+}
+.newsBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.preview__block {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.preview__block img {
+  max-width: 70px;
+}
+.categoty__list {
+  display: flex;
+  gap: 7px;
+  padding: 0;
+  list-style-type: none;
+}
+.category__item {
+  list-style-type: none;
+}
+.searchInputBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchInputBlock input {
+  flex: 1 1;
+}
+.searchInputBlock img {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+.search__text {
+  width: 100%;
+}
+
+.banner_link {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+}
+
+.banner_link img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.WeatherBlock {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr;
+  gap: 10px;
+  align-content: center;
+}
+.WeatherBlock img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.temperature {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  align-self: center;
+}
+.bottomLinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.bottom__list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pos_link {
+  list-style-type: none;
+}
+.pos_link img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}

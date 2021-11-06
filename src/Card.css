@@ -1,0 +1,43 @@
+.card, .textWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.textWrapper {
+  gap: 20px;
+  border: 1px solid #dedcdc;
+  padding: 10px;
+}
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.cardImg {
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.cardTitle {
+  font-weight: 700;
+  text-align: center;
+}
+.cardText {
+  text-align: left;
+}
+
+.cardBtn {
+  background-color: rgb(123, 169, 210);
+  color: #fff;
+  text-transform: uppercase;
+  height: 55px;
+  border: none;
+}
